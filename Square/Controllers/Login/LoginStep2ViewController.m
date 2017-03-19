@@ -56,7 +56,7 @@
 /**刷新验证码*/
 -(void)refreshSecCode{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSMutableURLRequest *UrlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString: @"http://218.75.197.124:83/CheckCode.aspx?"]];
+        NSMutableURLRequest *UrlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString: [NSString stringWithFormat:@"%@%@",[Config getUrl],@"/CheckCode.aspx?"]]];
         //提交Cookie，上一行的NSURLRequest被改为NSMutableURLRequest
         if(self.AFHROM.cookieDictionary) {
             [UrlRequest setHTTPShouldHandleCookies:NO];
@@ -78,7 +78,7 @@
     });
     
     //    SDWebImageManager *manager = [SDWebImageManager sharedManager];
-    //    NSString *image_urls=@"http://218.75.197.124:83/CheckCode.aspx";
+    //    NSString *image_urls=[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/CheckCode.aspx"];
     //    NSURL *url                   = [NSURL URLWithString: image_urls];//接口地址
     //    [manager downloadImageWithURL:url options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize) {
     //    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
@@ -87,7 +87,7 @@
 }
 
 -(void)acquireViewStare{
-    [self.AFHROM GET:@"http://218.75.197.124:83/default2.aspx" parameters:nil
+    [self.AFHROM GET:[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/default2.aspx"] parameters:nil
              success:^(AFHTTPRequestOperation *operation, id responseObject) {
                  NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
                  NSData *data=responseObject;
@@ -111,14 +111,15 @@
 -(void)logins{
     //[self.view showHUDWithText:@"登录中" hudType:kXHHUDLoading animationType:kXHHUDFade delay:0];
     NSDictionary *parameters = @{@"__VIEWSTATE":self.viewState,@"txtUserName": _userName,@"TextBox2":_passWorld,@"txtSecretCode":_secCode,@"RadioButtonList1":@"学生",@"Button1":@""};
-    [self.AFHROM POST:@"http://218.75.197.124:83/default2.aspx" parameters:parameters
+    [self.AFHROM POST:[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/default2.aspx"] parameters:parameters
               success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                  NSURL *denglu=[NSURL URLWithString:@"http://218.75.197.124:83/default2.aspx"];
+                  NSURL *denglu=[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/default2.aspx"]];
                   if ([operation.response.URL isEqual:denglu]) {
                       //  [self miMaCuoWu];
-                      NSLog(@"登陆错误");
+                      [self refreshSecCode];
+                      [MBProgressHUD showError:@"登录错误，账号/密码/验证码错误"];
                   }else{
-                      NSLog(@"登陆成功");
+                      [MBProgressHUD showError:@"登录成功"];
                       NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
                       
                       NSData *data=responseObject;
@@ -130,7 +131,8 @@
                         [self.stepsController showNextStep];
                   }
               } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                  NSLog(@"Error: %@", @"???");
+                  [self refreshSecCode];
+                  [MBProgressHUD showError:@"登录错误，网络无法连接"];
               }];
 }
 -(void)anayseLoginData:(NSData*)data{
@@ -154,7 +156,7 @@
     if(_userName!=nil&&_passWorld!=nil){
         NSDictionary *parameters2 = @{@"xh":_userName,@"xm":_passWorld,@"gnmkdm":@"N121603"};
         manager2.responseSerializer = [AFHTTPResponseSerializer serializer];
-        [self.AFHROM GET:@"http://218.75.197.124:83/xskbcx.aspx?" parameters:parameters2
+        [self.AFHROM GET:[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/xskbcx.aspx?"] parameters:parameters2
                  success:^(AFHTTPRequestOperation *operation, id responseObject) {
                      NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
                      

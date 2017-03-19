@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="118" y="971"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="hGQ-ge-hKu">
             <objects>
-                <viewController storyboardIdentifier="Login" id="S0v-Ba-kIh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="S0v-Ba-kIh" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jbm-oB-WDk"/>
                         <viewControllerLayoutGuide type="bottom" id="xol-so-Lhm"/>

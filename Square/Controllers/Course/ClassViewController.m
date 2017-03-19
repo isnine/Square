@@ -45,10 +45,9 @@ NSString *show_xp;
 - (void)viewDidLoad {
     [super viewDidLoad];
     //标题//
-    AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    LoginViewController *firstlogin                = [[LoginViewController alloc] init];
-    [tempAppDelegate.mainNavigationController pushViewController:firstlogin animated:YES];
- //   [Config pushViewController:@"Login"];
+    if (![Config getCourse]) {
+        [Config pushViewController:@"Login"];
+    }
 
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
     now_week=(short)[Math getWeekDay];
@@ -72,7 +71,6 @@ NSString *show_xp;
     UIBarButtonItem *rightCunstomButtonView = [[UIBarButtonItem alloc] initWithCustomView:rightButtonView];
     self.navigationItem.rightBarButtonItem = rightCunstomButtonView;
     now_xp=0;
-    [self addCourse];
     selectss=1;
 }
 
@@ -373,6 +371,7 @@ NSString *show_xp;
 
 - (void)viewWillAppear:(BOOL)animated
 {
+       [self addCourse];
     [super viewWillAppear:animated];
     
     _plusButtonsViewMain                         = [LGPlusButtonsView plusButtonsViewWithNumberOfButtons:3

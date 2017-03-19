@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A81D5451E7E98A50020C770 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D5431E7E98A50020C770 /* LoginViewController.m */; };
-		3A81D5461E7E98A50020C770 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A81D5441E7E98A50020C770 /* LoginViewController.xib */; };
 		3A81D54A1E7EA1890020C770 /* zySheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D5491E7EA1890020C770 /* zySheetPickerView.m */; };
 		3A81D54D1E7EA1BF0020C770 /* LoginStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */; };
 		3A81D5501E7EA4060020C770 /* LoginStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */; };
@@ -42,15 +41,14 @@
 /* Begin PBXFileReference section */
 		3A81D5421E7E98A50020C770 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3A81D5431E7E98A50020C770 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		3A81D5441E7E98A50020C770 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		3A81D5481E7EA1890020C770 /* zySheetPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zySheetPickerView.h; sourceTree = "<group>"; };
 		3A81D5491E7EA1890020C770 /* zySheetPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zySheetPickerView.m; sourceTree = "<group>"; };
 		3A81D54B1E7EA1BF0020C770 /* LoginStep2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStep2ViewController.h; sourceTree = "<group>"; };
-		3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStep2ViewController.m; sourceTree = "<group>"; };
+		3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginStep2ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3A81D54E1E7EA4060020C770 /* LoginStep3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStep3ViewController.h; sourceTree = "<group>"; };
-		3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStep3ViewController.m; sourceTree = "<group>"; };
+		3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginStep3ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3ABBEB7F1E7E2BFB000F4891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABBEB801E7E2BFB000F4891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
@@ -78,7 +76,7 @@
 		3ABBEBB81E7E8990000F4891 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		3ABBEBB91E7E8990000F4891 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 		3ABBEBCB1E7E944C000F4891 /* LoginStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStepViewController.h; sourceTree = "<group>"; };
-		3ABBEBCE1E7E94C8000F4891 /* LoginStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStepViewController.m; sourceTree = "<group>"; };
+		3ABBEBCE1E7E94C8000F4891 /* LoginStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginStepViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3AF9D4421E7D7B0E00AE4230 /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF9D4481E7D7B0E00AE4230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -260,7 +258,6 @@
 				3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */,
 				3A81D5421E7E98A50020C770 /* LoginViewController.h */,
 				3A81D5431E7E98A50020C770 /* LoginViewController.m */,
-				3A81D5441E7E98A50020C770 /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -405,7 +402,6 @@
 			files = (
 				3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */,
 				3AF9D4551E7D7B0E00AE4230 /* LaunchScreen.storyboard in Resources */,
-				3A81D5461E7E98A50020C770 /* LoginViewController.xib in Resources */,
 				3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */,
 				3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */,
 				3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */,

@@ -42,7 +42,7 @@ AFHTTPRequestOperationManager *AFHROMs;
     if(userName!=nil&&passWord!=nil){
         NSDictionary *parameters2 = @{@"xh":userName,@"xm":passWord,@"gnmkdm":@"N121603"};
         manager2.responseSerializer = [AFHTTPResponseSerializer serializer];
-        [self.AFHROM GET:@"http://218.75.197.124:83/xskbcx.aspx?" parameters:parameters2
+        [self.AFHROM GET:[NSString stringWithFormat:@"%@%@",[Config getUrl],@"/xskbcx.aspx?"] parameters:parameters2
                  success:^(AFHTTPRequestOperation *operation, id responseObject) {
                      NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding (kCFStringEncodingGB_18030_2000);
                      
@@ -164,7 +164,7 @@ AFHTTPRequestOperationManager *AFHROMs;
                              NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
                              // 2.利用规则测试字符串获取匹配结果
                              NSArray *results = [regular matchesInString:str options:0 range:NSMakeRange(0,str.length)];
-                             if (results.count!=3) {
+                             if (results.count<3&&![str rangeOfString:@"体育"].location!=NSNotFound) {
                                  //NSLog(@"非正常情况%d",i);
                                  dic[@"room"]=@"";
                                  str=@"";

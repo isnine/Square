@@ -58,7 +58,7 @@
 {
     if(!_showLabel)
     {
-        _showLabel = [[UILabel alloc]initWithFrame:CGRectMake(5, 100, self.view.frame.size.width-10, 50)];
+        _showLabel = [[UILabel alloc]initWithFrame:CGRectMake(5, 200, self.view.frame.size.width-10, 50)];
         _showLabel.textColor = [UIColor yellowColor];
         _showLabel.layer.cornerRadius = 10;
         _showLabel.layer.masksToBounds = YES;
