@@ -1,0 +1,16 @@
+//
+//  Square-Prefix.pch
+//  Square
+//
+//  Created by Nine on 2017/3/19.
+//  Copyright © 2017年 Nine. All rights reserved.
+//
+
+#ifndef Square_Prefix_pch
+#define Square_Prefix_pch
+
+#define URL_SQUARE http://218.75.197.124:83
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Square_Prefix_pch */

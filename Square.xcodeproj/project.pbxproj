@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AF9D4471E7D7B0E00AE4230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4461E7D7B0E00AE4230 /* main.m */; };
+		3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */; };
+		3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7F1E7E2BFB000F4891 /* Info.plist */; };
+		3ABBEB841E7E2BFB000F4891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB801E7E2BFB000F4891 /* main.m */; };
+		3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB871E7E2D25000F4891 /* UserModel.m */; };
+		3ABBEB8C1E7E2D3E000F4891 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */; };
+		3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB911E7E2F1B000F4891 /* Config.m */; };
+		3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */; };
+		3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */; };
 		3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */; };
-		3AF9D44D1E7D7B0E00AE4230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D44C1E7D7B0E00AE4230 /* ViewController.m */; };
 		3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D44E1E7D7B0E00AE4230 /* Main.storyboard */; };
 		3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D4511E7D7B0E00AE4230 /* Assets.xcassets */; };
 		3AF9D4551E7D7B0E00AE4230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D4531E7D7B0E00AE4230 /* LaunchScreen.storyboard */; };
+		3AF9D4851E7D8BE100AE4230 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4801E7D8BE100AE4230 /* TFHpple.m */; };
+		3AF9D4861E7D8BE100AE4230 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4821E7D8BE100AE4230 /* TFHppleElement.m */; };
+		3AF9D4871E7D8BE100AE4230 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4841E7D8BE100AE4230 /* XPathQuery.m */; };
+		3AF9D4891E7D8C6600AE4230 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF9D4881E7D8C6600AE4230 /* libxml2.2.dylib */; };
+		AE0FBCBAA684C22282FE8DB1 /* libPods-Square.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F99C2638FA73B2924107764A /* libPods-Square.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ABBEB7F1E7E2BFB000F4891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABBEB801E7E2BFB000F4891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ABBEB861E7E2D25000F4891 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = User/UserModel.h; sourceTree = "<group>"; };
+		3ABBEB871E7E2D25000F4891 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = User/UserModel.m; sourceTree = "<group>"; };
+		3ABBEB8A1E7E2D3E000F4891 /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModel.h; path = Course/CourseModel.h; sourceTree = "<group>"; };
+		3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModel.m; path = Course/CourseModel.m; sourceTree = "<group>"; };
+		3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
+		3ABBEB901E7E2F1B000F4891 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Utils/Manager/Config.h; sourceTree = "<group>"; };
+		3ABBEB911E7E2F1B000F4891 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Utils/Manager/Config.m; sourceTree = "<group>"; };
+		3ABBEB941E7E2F73000F4891 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		3AF9D4421E7D7B0E00AE4230 /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF9D4461E7D7B0E00AE4230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AF9D4481E7D7B0E00AE4230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3AF9D44B1E7D7B0E00AE4230 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3AF9D44C1E7D7B0E00AE4230 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3AF9D44F1E7D7B0E00AE4230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AF9D4511E7D7B0E00AE4230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF9D4541E7D7B0E00AE4230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3AF9D4561E7D7B0E00AE4230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF9D47F1E7D8BE100AE4230 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3AF9D4801E7D8BE100AE4230 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3AF9D4811E7D8BE100AE4230 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		3AF9D4821E7D8BE100AE4230 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		3AF9D4831E7D8BE100AE4230 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3AF9D4841E7D8BE100AE4230 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3AF9D4881E7D8C6600AE4230 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		61700E3868C3012BF2D0F2B4 /* Pods-Square.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Square.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Square/Pods-Square.debug.xcconfig"; sourceTree = "<group>"; };
+		70CBAB4CD95ECE4F4C5528B5 /* Pods-Square.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Square.release.xcconfig"; path = "Pods/Target Support Files/Pods-Square/Pods-Square.release.xcconfig"; sourceTree = "<group>"; };
+		F99C2638FA73B2924107764A /* libPods-Square.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Square.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +64,105 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF9D4891E7D8C6600AE4230 /* libxml2.2.dylib in Frameworks */,
+				AE0FBCBAA684C22282FE8DB1 /* libPods-Square.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ABBEB7A1E7E2BFB000F4891 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */,
+				3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3ABBEB7D1E7E2BFB000F4891 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB891E7E2D2C000F4891 /* Course */,
+				3ABBEB851E7E2D0A000F4891 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3ABBEB7E1E7E2BFB000F4891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB7F1E7E2BFB000F4891 /* Info.plist */,
+				3ABBEB801E7E2BFB000F4891 /* main.m */,
+				3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ABBEB811E7E2BFB000F4891 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AF9D44E1E7D7B0E00AE4230 /* Main.storyboard */,
+				3AF9D4531E7D7B0E00AE4230 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3ABBEB851E7E2D0A000F4891 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB861E7E2D25000F4891 /* UserModel.h */,
+				3ABBEB871E7E2D25000F4891 /* UserModel.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		3ABBEB891E7E2D2C000F4891 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB8A1E7E2D3E000F4891 /* CourseModel.h */,
+				3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */,
+			);
+			name = Course;
+			sourceTree = "<group>";
+		};
+		3ABBEB8E1E7E2EDF000F4891 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB931E7E2F73000F4891 /* MBProgressHUD+MJ */,
+				3ABBEB8F1E7E2EEC000F4891 /* Manager */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3ABBEB8F1E7E2EEC000F4891 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB901E7E2F1B000F4891 /* Config.h */,
+				3ABBEB911E7E2F1B000F4891 /* Config.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		3ABBEB931E7E2F73000F4891 /* MBProgressHUD+MJ */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB941E7E2F73000F4891 /* MBProgressHUD+MJ.h */,
+				3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */,
+				3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */,
+			);
+			name = "MBProgressHUD+MJ";
+			path = "Utils/MBProgressHUD+MJ";
+			sourceTree = "<group>";
+		};
 		3AF9D4391E7D7B0E00AE4230 = {
 			isa = PBXGroup;
 			children = (
 				3AF9D4441E7D7B0E00AE4230 /* Square */,
 				3AF9D4431E7D7B0E00AE4230 /* Products */,
+				D9A8019C1264D0164CC18FFC /* Pods */,
+				6F57EE9A469176E067666EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,25 +177,56 @@
 		3AF9D4441E7D7B0E00AE4230 /* Square */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEB7A1E7E2BFB000F4891 /* Controllers */,
+				3ABBEB7D1E7E2BFB000F4891 /* Models */,
+				3ABBEB811E7E2BFB000F4891 /* Views */,
+				3AF9D4661E7D802600AE4230 /* Vendor */,
+				3ABBEB8E1E7E2EDF000F4891 /* Utils */,
+				3ABBEB7E1E7E2BFB000F4891 /* Supporting Files */,
 				3AF9D4481E7D7B0E00AE4230 /* AppDelegate.h */,
 				3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */,
-				3AF9D44B1E7D7B0E00AE4230 /* ViewController.h */,
-				3AF9D44C1E7D7B0E00AE4230 /* ViewController.m */,
-				3AF9D44E1E7D7B0E00AE4230 /* Main.storyboard */,
 				3AF9D4511E7D7B0E00AE4230 /* Assets.xcassets */,
-				3AF9D4531E7D7B0E00AE4230 /* LaunchScreen.storyboard */,
-				3AF9D4561E7D7B0E00AE4230 /* Info.plist */,
-				3AF9D4451E7D7B0E00AE4230 /* Supporting Files */,
 			);
 			path = Square;
 			sourceTree = "<group>";
 		};
-		3AF9D4451E7D7B0E00AE4230 /* Supporting Files */ = {
+		3AF9D4661E7D802600AE4230 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				3AF9D4461E7D7B0E00AE4230 /* main.m */,
+				3AF9D47E1E7D8BE100AE4230 /* Hpple */,
 			);
-			name = "Supporting Files";
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3AF9D47E1E7D8BE100AE4230 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				3AF9D47F1E7D8BE100AE4230 /* TFHpple.h */,
+				3AF9D4801E7D8BE100AE4230 /* TFHpple.m */,
+				3AF9D4811E7D8BE100AE4230 /* TFHppleElement.h */,
+				3AF9D4821E7D8BE100AE4230 /* TFHppleElement.m */,
+				3AF9D4831E7D8BE100AE4230 /* XPathQuery.h */,
+				3AF9D4841E7D8BE100AE4230 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		6F57EE9A469176E067666EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AF9D4881E7D8C6600AE4230 /* libxml2.2.dylib */,
+				F99C2638FA73B2924107764A /* libPods-Square.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A8019C1264D0164CC18FFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61700E3868C3012BF2D0F2B4 /* Pods-Square.debug.xcconfig */,
+				70CBAB4CD95ECE4F4C5528B5 /* Pods-Square.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AF9D4591E7D7B0E00AE4230 /* Build configuration list for PBXNativeTarget "Square" */;
 			buildPhases = (
+				1EE96724863D8C7EAF0CDAEF /* [CP] Check Pods Manifest.lock */,
 				3AF9D43E1E7D7B0E00AE4230 /* Sources */,
 				3AF9D43F1E7D7B0E00AE4230 /* Frameworks */,
 				3AF9D4401E7D7B0E00AE4230 /* Resources */,
+				D1871B52C582F8EDC1940295 /* [CP] Embed Pods Frameworks */,
+				3B4AB5804E8E37E51C658A5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,7 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */,
 				3AF9D4551E7D7B0E00AE4230 /* LaunchScreen.storyboard in Resources */,
+				3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */,
 				3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */,
 				3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */,
 			);
@@ -146,14 +301,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EE96724863D8C7EAF0CDAEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4AB5804E8E37E51C658A5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Square/Pods-Square-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1871B52C582F8EDC1940295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Square/Pods-Square-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AF9D43E1E7D7B0E00AE4230 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AF9D44D1E7D7B0E00AE4230 /* ViewController.m in Sources */,
 				3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */,
-				3AF9D4471E7D7B0E00AE4230 /* main.m in Sources */,
+				3AF9D4851E7D8BE100AE4230 /* TFHpple.m in Sources */,
+				3ABBEB8C1E7E2D3E000F4891 /* CourseModel.m in Sources */,
+				3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */,
+				3AF9D4871E7D8BE100AE4230 /* XPathQuery.m in Sources */,
+				3AF9D4861E7D8BE100AE4230 /* TFHppleElement.m in Sources */,
+				3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */,
+				3ABBEB841E7E2BFB000F4891 /* main.m in Sources */,
+				3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */,
+				3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +376,7 @@
 				3AF9D44F1E7D7B0E00AE4230 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3AF9D4531E7D7B0E00AE4230 /* LaunchScreen.storyboard */ = {
@@ -174,6 +385,7 @@
 				3AF9D4541E7D7B0E00AE4230 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,25 +483,69 @@
 		};
 		3AF9D45A1E7D7B0E00AE4230 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61700E3868C3012BF2D0F2B4 /* Pods-Square.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JW2LR94V6G;
-				INFOPLIST_FILE = Square/Info.plist;
+				GCC_PREFIX_HEADER = "Square/Supporting Files/Square-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Square/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = name.wxz.Square;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		3AF9D45B1E7D7B0E00AE4230 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CBAB4CD95ECE4F4C5528B5 /* Pods-Square.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JW2LR94V6G;
-				INFOPLIST_FILE = Square/Info.plist;
+				GCC_PREFIX_HEADER = "Square/Supporting Files/Square-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Square/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = name.wxz.Square;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -312,6 +568,7 @@
 				3AF9D45B1E7D7B0E00AE4230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
