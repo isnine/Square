@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A81D5451E7E98A50020C770 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D5431E7E98A50020C770 /* LoginViewController.m */; };
+		3A81D5461E7E98A50020C770 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A81D5441E7E98A50020C770 /* LoginViewController.xib */; };
+		3A81D54A1E7EA1890020C770 /* zySheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D5491E7EA1890020C770 /* zySheetPickerView.m */; };
+		3A81D54D1E7EA1BF0020C770 /* LoginStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */; };
+		3A81D5501E7EA4060020C770 /* LoginStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */; };
 		3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */; };
 		3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7F1E7E2BFB000F4891 /* Info.plist */; };
 		3ABBEB841E7E2BFB000F4891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB801E7E2BFB000F4891 /* main.m */; };
@@ -24,6 +29,7 @@
 		3ABBEBB41E7E897B000F4891 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB21E7E897B000F4891 /* MainPageViewController.m */; };
 		3ABBEBBA1E7E8990000F4891 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB71E7E8990000F4891 /* LeftSlideViewController.m */; };
 		3ABBEBBB1E7E8990000F4891 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB91E7E8990000F4891 /* UIView_extra.m */; };
+		3ABBEBCF1E7E94C8000F4891 /* LoginStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBCE1E7E94C8000F4891 /* LoginStepViewController.m */; };
 		3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */; };
 		3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D44E1E7D7B0E00AE4230 /* Main.storyboard */; };
 		3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D4511E7D7B0E00AE4230 /* Assets.xcassets */; };
@@ -36,6 +42,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A81D5421E7E98A50020C770 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3A81D5431E7E98A50020C770 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3A81D5441E7E98A50020C770 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		3A81D5481E7EA1890020C770 /* zySheetPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zySheetPickerView.h; sourceTree = "<group>"; };
+		3A81D5491E7EA1890020C770 /* zySheetPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zySheetPickerView.m; sourceTree = "<group>"; };
+		3A81D54B1E7EA1BF0020C770 /* LoginStep2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStep2ViewController.h; sourceTree = "<group>"; };
+		3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStep2ViewController.m; sourceTree = "<group>"; };
+		3A81D54E1E7EA4060020C770 /* LoginStep3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStep3ViewController.h; sourceTree = "<group>"; };
+		3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStep3ViewController.m; sourceTree = "<group>"; };
 		3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ABBEB7F1E7E2BFB000F4891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +83,8 @@
 		3ABBEBB71E7E8990000F4891 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
 		3ABBEBB81E7E8990000F4891 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		3ABBEBB91E7E8990000F4891 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		3ABBEBCB1E7E944C000F4891 /* LoginStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStepViewController.h; sourceTree = "<group>"; };
+		3ABBEBCE1E7E94C8000F4891 /* LoginStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStepViewController.m; sourceTree = "<group>"; };
 		3AF9D4421E7D7B0E00AE4230 /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF9D4481E7D7B0E00AE4230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,9 +116,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A81D5471E7EA1890020C770 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				3A81D5481E7EA1890020C770 /* zySheetPickerView.h */,
+				3A81D5491E7EA1890020C770 /* zySheetPickerView.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
 		3ABBEB7A1E7E2BFB000F4891 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEBC71E7E92E4000F4891 /* Login */,
 				3ABBEBAE1E7E897B000F4891 /* Main */,
 				3ABBEB991E7E6847000F4891 /* Course */,
 				3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */,
@@ -240,6 +267,22 @@
 			path = LeftSlideViewController;
 			sourceTree = "<group>";
 		};
+		3ABBEBC71E7E92E4000F4891 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEBCB1E7E944C000F4891 /* LoginStepViewController.h */,
+				3ABBEBCE1E7E94C8000F4891 /* LoginStepViewController.m */,
+				3A81D54B1E7EA1BF0020C770 /* LoginStep2ViewController.h */,
+				3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */,
+				3A81D54E1E7EA4060020C770 /* LoginStep3ViewController.h */,
+				3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */,
+				3A81D5421E7E98A50020C770 /* LoginViewController.h */,
+				3A81D5431E7E98A50020C770 /* LoginViewController.m */,
+				3A81D5441E7E98A50020C770 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		3AF9D4391E7D7B0E00AE4230 = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +320,7 @@
 		3AF9D4661E7D802600AE4230 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3A81D5471E7EA1890020C770 /* Picker */,
 				3ABBEBB51E7E8990000F4891 /* LeftSlideViewController */,
 				3ABBEBA31E7E6900000F4891 /* GWPCourseListView */,
 				3AF9D47E1E7D8BE100AE4230 /* Hpple */,
@@ -379,6 +423,7 @@
 			files = (
 				3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */,
 				3AF9D4551E7D7B0E00AE4230 /* LaunchScreen.storyboard in Resources */,
+				3A81D5461E7E98A50020C770 /* LoginViewController.xib in Resources */,
 				3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */,
 				3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */,
 				3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */,
@@ -444,15 +489,20 @@
 				3ABBEBA61E7E6900000F4891 /* GWPCourseListView.m in Sources */,
 				3ABBEB9F1E7E689B000F4891 /* CourseModelController.m in Sources */,
 				3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */,
+				3A81D5501E7EA4060020C770 /* LoginStep3ViewController.m in Sources */,
 				3ABBEBA21E7E68E4000F4891 /* CourseModel.m in Sources */,
 				3ABBEBBA1E7E8990000F4891 /* LeftSlideViewController.m in Sources */,
 				3ABBEB9C1E7E6847000F4891 /* ClassViewController.m in Sources */,
+				3A81D54A1E7EA1890020C770 /* zySheetPickerView.m in Sources */,
 				3AF9D4851E7D8BE100AE4230 /* TFHpple.m in Sources */,
 				3ABBEBB41E7E897B000F4891 /* MainPageViewController.m in Sources */,
+				3A81D54D1E7EA1BF0020C770 /* LoginStep2ViewController.m in Sources */,
 				3ABBEBBB1E7E8990000F4891 /* UIView_extra.m in Sources */,
 				3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */,
+				3A81D5451E7E98A50020C770 /* LoginViewController.m in Sources */,
 				3AF9D4871E7D8BE100AE4230 /* XPathQuery.m in Sources */,
 				3ABBEBB31E7E897B000F4891 /* LeftSortsViewController.m in Sources */,
+				3ABBEBCF1E7E94C8000F4891 /* LoginStepViewController.m in Sources */,
 				3AF9D4861E7D8BE100AE4230 /* TFHppleElement.m in Sources */,
 				3ABBEBA91E7E692A000F4891 /* Math.m in Sources */,
 				3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */,

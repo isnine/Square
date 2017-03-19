@@ -8,6 +8,7 @@
 
 #import "MainPageViewController.h"
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 #define vBackBarButtonItemName  @"backArrow.png"    //导航条返回默认图片名
 @interface MainPageViewController ()
 
@@ -25,6 +26,10 @@
     [menuBtn setBackgroundImage:[UIImage imageNamed:@"menu"] forState:UIControlStateNormal];
     [menuBtn addTarget:self action:@selector(openOrCloseLeftList) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
+    
+    AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    LoginViewController *firstlogin                = [[LoginViewController alloc] init];
+    [tempAppDelegate.mainNavigationController pushViewController:firstlogin animated:YES];
 }
 
 - (void) openOrCloseLeftList

@@ -14,7 +14,7 @@
 #import "MBProgressHUD.h"
 #import "AFNetworking.h"
 #import "MBProgressHUD+MJ.h"
-
+#import "LoginViewController.h"
 #import "NSData+CRC32.h"
 @interface ClassViewController ()<GWPCourseListViewDataSource, GWPCourseListViewDelegate>
 @property (weak, nonatomic) IBOutlet GWPCourseListView *courseListView;
@@ -45,6 +45,11 @@ NSString *show_xp;
 - (void)viewDidLoad {
     [super viewDidLoad];
     //标题//
+    AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    LoginViewController *firstlogin                = [[LoginViewController alloc] init];
+    [tempAppDelegate.mainNavigationController pushViewController:firstlogin animated:YES];
+ //   [Config pushViewController:@"Login"];
+
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
     now_week=(short)[Math getWeekDay];
     show_xp=[defaults objectForKey:@"show_xp"];

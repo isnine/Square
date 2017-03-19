@@ -25,6 +25,16 @@
     [defaults setObject:data forKey:@"kCourse"];
     [defaults synchronize];
 }
++(void)saveUrl:(NSString*)url{
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    [defaults setObject:url forKey:@"kUrl"];
+    [defaults synchronize];
+}
++(void)saveSchool:(NSString*)school{
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    [defaults setObject:school forKey:@"kSchool"];
+    [defaults synchronize];
+}
 #pragma mark - 获得存储数据
 +(NSString*)getUserName{
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
@@ -37,6 +47,14 @@
 +(NSArray*)getCourse{
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
     return [defaults objectForKey:@"kCourse"];
+}
++(NSString*)getUrl{
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    return [defaults objectForKey:@"kUrl"];
+}
++(NSString*)getSchool{
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    return [defaults objectForKey:@"kSchool"];
 }
 
 #pragma mark - 界面

@@ -12,8 +12,13 @@
 +(void)saveUserName:(NSString*)userName;
 +(void)savePassWord:(NSString*)passWord;
 +(void)saveCourse:(NSArray*)data;
++(void)saveUrl:(NSString*)url;
++(void)saveSchool:(NSString*)school;
+
 +(NSString*)getUserName;
 +(NSString*)getPassWord;
 +(NSArray*)getCourse;
++(NSString*)getUrl;
++(NSString*)getSchool;
 +(void)pushViewController:(NSString*)controller;
 @end

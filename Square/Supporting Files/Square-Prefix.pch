@@ -8,6 +8,7 @@
 
 #ifndef Square_Prefix_pch
 #define Square_Prefix_pch
+#define SYReal(value) ((value)/414.0f*[UIScreen mainScreen].bounds.size.width)
 #define RGB(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 #define URL_SQUARE http://218.75.197.124:83
 // Include any system framework and library headers here that should be included in all compilation units.

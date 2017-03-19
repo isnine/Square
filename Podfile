@@ -4,4 +4,5 @@ target "Square" do
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'SDWebImage', '~>3.8'
     pod 'LGPlusButtonsView', '~> 1.1.0'
+pod "RMStepsController", "~> 1.0.2"
 end
