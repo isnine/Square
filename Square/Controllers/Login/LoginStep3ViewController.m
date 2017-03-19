@@ -164,7 +164,7 @@ AFHTTPRequestOperationManager *AFHROMs;
                              NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
                              // 2.利用规则测试字符串获取匹配结果
                              NSArray *results = [regular matchesInString:str options:0 range:NSMakeRange(0,str.length)];
-                             if (results.count<3&&![str rangeOfString:@"体育"].location!=NSNotFound) {
+                             if (results.count==1||(results.count<3&&!([str rangeOfString:@"体育"].location!=NSNotFound))) {
                                  //NSLog(@"非正常情况%d",i);
                                  dic[@"room"]=@"";
                                  str=@"";

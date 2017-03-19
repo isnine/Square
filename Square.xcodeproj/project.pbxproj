@@ -11,7 +11,6 @@
 		3A81D54A1E7EA1890020C770 /* zySheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D5491E7EA1890020C770 /* zySheetPickerView.m */; };
 		3A81D54D1E7EA1BF0020C770 /* LoginStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */; };
 		3A81D5501E7EA4060020C770 /* LoginStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */; };
-		3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */; };
 		3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7F1E7E2BFB000F4891 /* Info.plist */; };
 		3ABBEB841E7E2BFB000F4891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB801E7E2BFB000F4891 /* main.m */; };
 		3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB911E7E2F1B000F4891 /* Config.m */; };
@@ -47,8 +46,6 @@
 		3A81D54C1E7EA1BF0020C770 /* LoginStep2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginStep2ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3A81D54E1E7EA4060020C770 /* LoginStep3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStep3ViewController.h; sourceTree = "<group>"; };
 		3A81D54F1E7EA4060020C770 /* LoginStep3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginStep3ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3ABBEB7F1E7E2BFB000F4891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABBEB801E7E2BFB000F4891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
@@ -123,8 +120,6 @@
 				3ABBEBC71E7E92E4000F4891 /* Login */,
 				3ABBEBAE1E7E897B000F4891 /* Main */,
 				3ABBEB991E7E6847000F4891 /* Course */,
-				3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */,
-				3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -484,7 +479,6 @@
 				3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */,
 				3ABBEB841E7E2BFB000F4891 /* main.m in Sources */,
 				3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */,
-				3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

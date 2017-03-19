@@ -45,10 +45,9 @@ NSString *show_xp;
 - (void)viewDidLoad {
     [super viewDidLoad];
     //标题//
-    if (![Config getCourse]) {
-        [Config pushViewController:@"Login"];
-    }
-
+        if (![Config getCourse]) {
+            [Config pushViewController:@"Login"];
+        }
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
     now_week=(short)[Math getWeekDay];
     show_xp=[defaults objectForKey:@"show_xp"];
@@ -105,8 +104,8 @@ NSString *show_xp;
     CourseModel *a26 = [CourseModel courseWithName:@"NULL" dayIndex:0 startCourseIndex:3 endCourseIndex:3];
     CourseModel *a27 = [CourseModel courseWithName:@"NULL" dayIndex:0 startCourseIndex:3 endCourseIndex:3];
     
-    if ([defaults objectForKey:@"kCourse"]!=NULL) {
-        NSArray *array                               = [defaults objectForKey:@"kCourse"];
+    if ([Config getCourse]) {
+        NSArray *array                               = [Config getCourse];
         int day1 = 1,day2=1,day3=1,day4=1,day5=1,day6=1;
         
         for (int i= 0; i<=(array.count-1); i++) {

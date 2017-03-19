@@ -7,8 +7,9 @@
 //
 
 #import "LeftSortsViewController.h"
+#import "MBProgressHUD+MJ.h"
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ClassViewController.h"
 
 @interface LeftSortsViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -71,9 +72,12 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    ViewController *vc = [[ViewController alloc] init];
+
     [tempAppDelegate.LeftSlideVC closeLeftView];//关闭左侧抽屉
   //  [tempAppDelegate.mainNavigationController pushViewController:vc animated:NO];
+    if(indexPath.row==0){
+         [self.navigationController popToRootViewControllerAnimated:YES];
+    }
     if (indexPath.row == 2) {
         NSString *appDomain       = [[NSBundle mainBundle] bundleIdentifier];
         [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];  //删除本地数据缓存
