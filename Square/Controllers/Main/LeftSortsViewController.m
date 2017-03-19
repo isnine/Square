@@ -23,7 +23,7 @@
     UIImageView *imageview = [[UIImageView alloc] initWithFrame:self.view.bounds];
     imageview.image = [UIImage imageNamed:@"leftbackiamge"];
     [self.view addSubview:imageview];
-
+    
     UITableView *tableview = [[UITableView alloc] init];
     self.tableview = tableview;
     tableview.frame = self.view.bounds;
@@ -60,7 +60,7 @@
     } else if (indexPath.row == 1) {
         cell.textLabel.text = @"成绩查询";
     } else if (indexPath.row == 2) {
-        cell.textLabel.text = @"退出账号";
+        cell.textLabel.text = @"导入课程";
     } else if (indexPath.row == 3) {
         cell.textLabel.text = @"关于";
     }
@@ -69,11 +69,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.row == 2) {
+        
+    }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     ViewController *vc = [[ViewController alloc] init];
     [tempAppDelegate.LeftSlideVC closeLeftView];//关闭左侧抽屉
-    
     [tempAppDelegate.mainNavigationController pushViewController:vc animated:NO];
 }
 

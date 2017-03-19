@@ -15,12 +15,10 @@
 		3ABBEB821E7E2BFB000F4891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */; };
 		3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7F1E7E2BFB000F4891 /* Info.plist */; };
 		3ABBEB841E7E2BFB000F4891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB801E7E2BFB000F4891 /* main.m */; };
-		3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB871E7E2D25000F4891 /* UserModel.m */; };
 		3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB911E7E2F1B000F4891 /* Config.m */; };
 		3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */; };
 		3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */; };
 		3ABBEB9C1E7E6847000F4891 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB9B1E7E6847000F4891 /* ClassViewController.m */; };
-		3ABBEB9F1E7E689B000F4891 /* CourseModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */; };
 		3ABBEBA21E7E68E4000F4891 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA11E7E68E4000F4891 /* CourseModel.m */; };
 		3ABBEBA61E7E6900000F4891 /* GWPCourseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA51E7E6900000F4891 /* GWPCourseListView.m */; };
 		3ABBEBA91E7E692A000F4891 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA81E7E692A000F4891 /* Math.m */; };
@@ -55,8 +53,6 @@
 		3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ABBEB7F1E7E2BFB000F4891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABBEB801E7E2BFB000F4891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3ABBEB861E7E2D25000F4891 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = User/UserModel.h; sourceTree = "<group>"; };
-		3ABBEB871E7E2D25000F4891 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = User/UserModel.m; sourceTree = "<group>"; };
 		3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
 		3ABBEB901E7E2F1B000F4891 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Utils/Manager/Config.h; sourceTree = "<group>"; };
 		3ABBEB911E7E2F1B000F4891 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Utils/Manager/Config.m; sourceTree = "<group>"; };
@@ -65,8 +61,6 @@
 		3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		3ABBEB9A1E7E6847000F4891 /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
 		3ABBEB9B1E7E6847000F4891 /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
-		3ABBEB9D1E7E689B000F4891 /* CourseModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModelController.h; path = Course/CourseModelController.h; sourceTree = "<group>"; };
-		3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModelController.m; path = Course/CourseModelController.m; sourceTree = "<group>"; };
 		3ABBEBA01E7E68E4000F4891 /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModel.h; path = Course/CourseModel.h; sourceTree = "<group>"; };
 		3ABBEBA11E7E68E4000F4891 /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModel.m; path = Course/CourseModel.m; sourceTree = "<group>"; };
 		3ABBEBA41E7E6900000F4891 /* GWPCourseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCourseListView.h; sourceTree = "<group>"; };
@@ -141,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				3ABBEB891E7E2D2C000F4891 /* Course */,
-				3ABBEB851E7E2D0A000F4891 /* User */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,22 +158,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3ABBEB851E7E2D0A000F4891 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				3ABBEB861E7E2D25000F4891 /* UserModel.h */,
-				3ABBEB871E7E2D25000F4891 /* UserModel.m */,
-			);
-			name = User;
-			sourceTree = "<group>";
-		};
 		3ABBEB891E7E2D2C000F4891 /* Course */ = {
 			isa = PBXGroup;
 			children = (
 				3ABBEBA01E7E68E4000F4891 /* CourseModel.h */,
 				3ABBEBA11E7E68E4000F4891 /* CourseModel.m */,
-				3ABBEB9D1E7E689B000F4891 /* CourseModelController.h */,
-				3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */,
 			);
 			name = Course;
 			sourceTree = "<group>";
@@ -487,7 +469,6 @@
 			files = (
 				3ABBEBAD1E7E6A3F000F4891 /* NSData+CRC32.m in Sources */,
 				3ABBEBA61E7E6900000F4891 /* GWPCourseListView.m in Sources */,
-				3ABBEB9F1E7E689B000F4891 /* CourseModelController.m in Sources */,
 				3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */,
 				3A81D5501E7EA4060020C770 /* LoginStep3ViewController.m in Sources */,
 				3ABBEBA21E7E68E4000F4891 /* CourseModel.m in Sources */,
@@ -498,7 +479,6 @@
 				3ABBEBB41E7E897B000F4891 /* MainPageViewController.m in Sources */,
 				3A81D54D1E7EA1BF0020C770 /* LoginStep2ViewController.m in Sources */,
 				3ABBEBBB1E7E8990000F4891 /* UIView_extra.m in Sources */,
-				3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */,
 				3A81D5451E7E98A50020C770 /* LoginViewController.m in Sources */,
 				3AF9D4871E7D8BE100AE4230 /* XPathQuery.m in Sources */,
 				3ABBEBB31E7E897B000F4891 /* LeftSortsViewController.m in Sources */,

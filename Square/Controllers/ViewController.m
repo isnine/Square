@@ -10,8 +10,6 @@
 #import "TFHpple.h"
 #import "AFNetworking.h"
 #import "MBProgressHUD+MJ.h"
-#import "UserModel.h"
-#import "CourseModelController.h"
 #import "ClassViewController.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 @interface ViewController ()
@@ -44,13 +42,11 @@
     [Config saveUserName:_UtfUserName.text];
     [Config savePassWord:_UtfPassWord.text];
     
-    UserModel *user=[[UserModel alloc]init];
-    [user acquireViewStare:_UtfUserName.text passWord:_UtfPassWord.text code:_UtfSecCode.text];
+
 
 }
 - (IBAction)course:(id)sender {
-    CourseModelController *course=[[CourseModelController alloc]init];
-    [course acquireData:[Config getUserName] with:[Config getPassWord]];
+
 }
 
 - (IBAction)a:(id)sender {

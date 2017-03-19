@@ -23,8 +23,7 @@
     [self.window makeKeyAndVisible];
     UIStoryboard *mainStoryBoard              = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *secondViewController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"Class"];
-    MainPageViewController *mainVC = [[MainPageViewController alloc] init];
-    self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
     LeftSortsViewController *leftVC = [[LeftSortsViewController alloc] init];
     self.LeftSlideVC = [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:self.mainNavigationController];
     self.window.rootViewController = self.LeftSlideVC;

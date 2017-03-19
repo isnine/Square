@@ -11,7 +11,6 @@
 #import "AFNetworking.h"
 #import "MBProgressHUD+MJ.h"
 #import "RMStepsController.h"
-#import "UserModel.h"
 @interface LoginStep2ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *UtfUserName;
 @property (weak, nonatomic) IBOutlet UITextField *UtfPassWord;

@@ -13,7 +13,6 @@
 @end
 
 @implementation LoginViewController
-
 - (NSArray *)stepViewControllers {
     UIStoryboard *mainStoryBoard              = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *firstStep = [mainStoryBoard instantiateViewControllerWithIdentifier:@"SomeStep"];
@@ -36,11 +35,18 @@
 - (void)canceled {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title=@"导入课表";
+    
+}
+
 - (void)viewWillAppear:(BOOL)animated {
-    self.navigationController.navigationBarHidden = YES;
+
+//    self.navigationController.navigationBarHidden = YES;
     
 }
 - (void)viewWillDisappear:(BOOL)animated{
-    self.navigationController.navigationBarHidden = NO;
+   // self.navigationController.navigationBarHidden = NO;
 }
 @end
