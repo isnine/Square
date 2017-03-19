@@ -11,10 +11,19 @@
 		3ABBEB831E7E2BFB000F4891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB7F1E7E2BFB000F4891 /* Info.plist */; };
 		3ABBEB841E7E2BFB000F4891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB801E7E2BFB000F4891 /* main.m */; };
 		3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB871E7E2D25000F4891 /* UserModel.m */; };
-		3ABBEB8C1E7E2D3E000F4891 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */; };
 		3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB911E7E2F1B000F4891 /* Config.m */; };
 		3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */; };
 		3ABBEB981E7E2F73000F4891 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */; };
+		3ABBEB9C1E7E6847000F4891 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB9B1E7E6847000F4891 /* ClassViewController.m */; };
+		3ABBEB9F1E7E689B000F4891 /* CourseModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */; };
+		3ABBEBA21E7E68E4000F4891 /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA11E7E68E4000F4891 /* CourseModel.m */; };
+		3ABBEBA61E7E6900000F4891 /* GWPCourseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA51E7E6900000F4891 /* GWPCourseListView.m */; };
+		3ABBEBA91E7E692A000F4891 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBA81E7E692A000F4891 /* Math.m */; };
+		3ABBEBAD1E7E6A3F000F4891 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBAC1E7E6A3F000F4891 /* NSData+CRC32.m */; };
+		3ABBEBB31E7E897B000F4891 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB01E7E897B000F4891 /* LeftSortsViewController.m */; };
+		3ABBEBB41E7E897B000F4891 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB21E7E897B000F4891 /* MainPageViewController.m */; };
+		3ABBEBBA1E7E8990000F4891 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB71E7E8990000F4891 /* LeftSlideViewController.m */; };
+		3ABBEBBB1E7E8990000F4891 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEBB91E7E8990000F4891 /* UIView_extra.m */; };
 		3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */; };
 		3AF9D4501E7D7B0E00AE4230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D44E1E7D7B0E00AE4230 /* Main.storyboard */; };
 		3AF9D4521E7D7B0E00AE4230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9D4511E7D7B0E00AE4230 /* Assets.xcassets */; };
@@ -33,14 +42,32 @@
 		3ABBEB801E7E2BFB000F4891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ABBEB861E7E2D25000F4891 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = User/UserModel.h; sourceTree = "<group>"; };
 		3ABBEB871E7E2D25000F4891 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = User/UserModel.m; sourceTree = "<group>"; };
-		3ABBEB8A1E7E2D3E000F4891 /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModel.h; path = Course/CourseModel.h; sourceTree = "<group>"; };
-		3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModel.m; path = Course/CourseModel.m; sourceTree = "<group>"; };
 		3ABBEB8D1E7E2DCA000F4891 /* Square-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
 		3ABBEB901E7E2F1B000F4891 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Utils/Manager/Config.h; sourceTree = "<group>"; };
 		3ABBEB911E7E2F1B000F4891 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Utils/Manager/Config.m; sourceTree = "<group>"; };
 		3ABBEB941E7E2F73000F4891 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		3ABBEB951E7E2F73000F4891 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		3ABBEB961E7E2F73000F4891 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		3ABBEB9A1E7E6847000F4891 /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		3ABBEB9B1E7E6847000F4891 /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		3ABBEB9D1E7E689B000F4891 /* CourseModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModelController.h; path = Course/CourseModelController.h; sourceTree = "<group>"; };
+		3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModelController.m; path = Course/CourseModelController.m; sourceTree = "<group>"; };
+		3ABBEBA01E7E68E4000F4891 /* CourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseModel.h; path = Course/CourseModel.h; sourceTree = "<group>"; };
+		3ABBEBA11E7E68E4000F4891 /* CourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseModel.m; path = Course/CourseModel.m; sourceTree = "<group>"; };
+		3ABBEBA41E7E6900000F4891 /* GWPCourseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCourseListView.h; sourceTree = "<group>"; };
+		3ABBEBA51E7E6900000F4891 /* GWPCourseListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCourseListView.m; sourceTree = "<group>"; };
+		3ABBEBA71E7E692A000F4891 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math.h; path = Utils/Manager/Math.h; sourceTree = "<group>"; };
+		3ABBEBA81E7E692A000F4891 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Math.m; path = Utils/Manager/Math.m; sourceTree = "<group>"; };
+		3ABBEBAB1E7E6A3F000F4891 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
+		3ABBEBAC1E7E6A3F000F4891 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
+		3ABBEBAF1E7E897B000F4891 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		3ABBEBB01E7E897B000F4891 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		3ABBEBB11E7E897B000F4891 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		3ABBEBB21E7E897B000F4891 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		3ABBEBB61E7E8990000F4891 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		3ABBEBB71E7E8990000F4891 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		3ABBEBB81E7E8990000F4891 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		3ABBEBB91E7E8990000F4891 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 		3AF9D4421E7D7B0E00AE4230 /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF9D4481E7D7B0E00AE4230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AF9D4491E7D7B0E00AE4230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +102,8 @@
 		3ABBEB7A1E7E2BFB000F4891 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEBAE1E7E897B000F4891 /* Main */,
+				3ABBEB991E7E6847000F4891 /* Course */,
 				3ABBEB7B1E7E2BFB000F4891 /* ViewController.h */,
 				3ABBEB7C1E7E2BFB000F4891 /* ViewController.m */,
 			);
@@ -121,8 +150,10 @@
 		3ABBEB891E7E2D2C000F4891 /* Course */ = {
 			isa = PBXGroup;
 			children = (
-				3ABBEB8A1E7E2D3E000F4891 /* CourseModel.h */,
-				3ABBEB8B1E7E2D3E000F4891 /* CourseModel.m */,
+				3ABBEBA01E7E68E4000F4891 /* CourseModel.h */,
+				3ABBEBA11E7E68E4000F4891 /* CourseModel.m */,
+				3ABBEB9D1E7E689B000F4891 /* CourseModelController.h */,
+				3ABBEB9E1E7E689B000F4891 /* CourseModelController.m */,
 			);
 			name = Course;
 			sourceTree = "<group>";
@@ -130,6 +161,7 @@
 		3ABBEB8E1E7E2EDF000F4891 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEBAA1E7E6A3F000F4891 /* CRC32 */,
 				3ABBEB931E7E2F73000F4891 /* MBProgressHUD+MJ */,
 				3ABBEB8F1E7E2EEC000F4891 /* Manager */,
 			);
@@ -139,6 +171,8 @@
 		3ABBEB8F1E7E2EEC000F4891 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEBA71E7E692A000F4891 /* Math.h */,
+				3ABBEBA81E7E692A000F4891 /* Math.m */,
 				3ABBEB901E7E2F1B000F4891 /* Config.h */,
 				3ABBEB911E7E2F1B000F4891 /* Config.m */,
 			);
@@ -154,6 +188,56 @@
 			);
 			name = "MBProgressHUD+MJ";
 			path = "Utils/MBProgressHUD+MJ";
+			sourceTree = "<group>";
+		};
+		3ABBEB991E7E6847000F4891 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEB9A1E7E6847000F4891 /* ClassViewController.h */,
+				3ABBEB9B1E7E6847000F4891 /* ClassViewController.m */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		3ABBEBA31E7E6900000F4891 /* GWPCourseListView */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEBA41E7E6900000F4891 /* GWPCourseListView.h */,
+				3ABBEBA51E7E6900000F4891 /* GWPCourseListView.m */,
+			);
+			path = GWPCourseListView;
+			sourceTree = "<group>";
+		};
+		3ABBEBAA1E7E6A3F000F4891 /* CRC32 */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEBAB1E7E6A3F000F4891 /* NSData+CRC32.h */,
+				3ABBEBAC1E7E6A3F000F4891 /* NSData+CRC32.m */,
+			);
+			name = CRC32;
+			path = "Utils/MBProgressHUD+MJ/CRC32";
+			sourceTree = "<group>";
+		};
+		3ABBEBAE1E7E897B000F4891 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEBAF1E7E897B000F4891 /* LeftSortsViewController.h */,
+				3ABBEBB01E7E897B000F4891 /* LeftSortsViewController.m */,
+				3ABBEBB11E7E897B000F4891 /* MainPageViewController.h */,
+				3ABBEBB21E7E897B000F4891 /* MainPageViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3ABBEBB51E7E8990000F4891 /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBEBB61E7E8990000F4891 /* LeftSlideViewController.h */,
+				3ABBEBB71E7E8990000F4891 /* LeftSlideViewController.m */,
+				3ABBEBB81E7E8990000F4891 /* UIView_extra.h */,
+				3ABBEBB91E7E8990000F4891 /* UIView_extra.m */,
+			);
+			path = LeftSlideViewController;
 			sourceTree = "<group>";
 		};
 		3AF9D4391E7D7B0E00AE4230 = {
@@ -193,6 +277,8 @@
 		3AF9D4661E7D802600AE4230 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEBB51E7E8990000F4891 /* LeftSlideViewController */,
+				3ABBEBA31E7E6900000F4891 /* GWPCourseListView */,
 				3AF9D47E1E7D8BE100AE4230 /* Hpple */,
 			);
 			path = Vendor;
@@ -354,12 +440,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABBEBAD1E7E6A3F000F4891 /* NSData+CRC32.m in Sources */,
+				3ABBEBA61E7E6900000F4891 /* GWPCourseListView.m in Sources */,
+				3ABBEB9F1E7E689B000F4891 /* CourseModelController.m in Sources */,
 				3AF9D44A1E7D7B0E00AE4230 /* AppDelegate.m in Sources */,
+				3ABBEBA21E7E68E4000F4891 /* CourseModel.m in Sources */,
+				3ABBEBBA1E7E8990000F4891 /* LeftSlideViewController.m in Sources */,
+				3ABBEB9C1E7E6847000F4891 /* ClassViewController.m in Sources */,
 				3AF9D4851E7D8BE100AE4230 /* TFHpple.m in Sources */,
-				3ABBEB8C1E7E2D3E000F4891 /* CourseModel.m in Sources */,
+				3ABBEBB41E7E897B000F4891 /* MainPageViewController.m in Sources */,
+				3ABBEBBB1E7E8990000F4891 /* UIView_extra.m in Sources */,
 				3ABBEB881E7E2D26000F4891 /* UserModel.m in Sources */,
 				3AF9D4871E7D8BE100AE4230 /* XPathQuery.m in Sources */,
+				3ABBEBB31E7E897B000F4891 /* LeftSortsViewController.m in Sources */,
 				3AF9D4861E7D8BE100AE4230 /* TFHppleElement.m in Sources */,
+				3ABBEBA91E7E692A000F4891 /* Math.m in Sources */,
 				3ABBEB971E7E2F73000F4891 /* MBProgressHUD+MJ.m in Sources */,
 				3ABBEB841E7E2BFB000F4891 /* main.m in Sources */,
 				3ABBEB921E7E2F1B000F4891 /* Config.m in Sources */,

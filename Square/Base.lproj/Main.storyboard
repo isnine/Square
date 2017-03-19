@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="123" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -54,6 +54,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rch-NW-tZ1">
+                                <rect key="frame" x="172" y="372" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="课程"/>
+                                <connections>
+                                    <action selector="course:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HwO-j0-uTt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stB-uD-Swf">
+                                <rect key="frame" x="299" y="317" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="刷新"/>
+                                <connections>
+                                    <action selector="a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgt-th-Fbz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNl-Ca-5HX">
+                                <rect key="frame" x="172" y="436" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="课程表"/>
+                                <connections>
+                                    <action selector="buuton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wtx-wd-JhF"/>
+                                    <segue destination="YKW-Wv-9ee" kind="show" id="Fte-a7-zFI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -67,6 +92,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="Y9C-zm-Aa5">
+            <objects>
+                <viewController storyboardIdentifier="Class" id="YKW-Wv-9ee" customClass="ClassViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8ho-8g-DI2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zvq-5E-AHc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D6Q-OS-who">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qoh-dJ-mm7" customClass="GWPCourseListView">
+                                <rect key="frame" x="0.0" y="21" width="600" height="580"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YKW-Wv-9ee" id="kyN-Ig-giu"/>
+                                    <outlet property="delegate" destination="YKW-Wv-9ee" id="bco-Gv-RlQ"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qoh-dJ-mm7" firstAttribute="top" secondItem="8ho-8g-DI2" secondAttribute="bottom" id="580-oc-hdL"/>
+                            <constraint firstAttribute="trailing" secondItem="Qoh-dJ-mm7" secondAttribute="trailing" id="Mih-qu-rHt"/>
+                            <constraint firstItem="Qoh-dJ-mm7" firstAttribute="leading" secondItem="D6Q-OS-who" secondAttribute="leading" id="gSt-Je-lF4"/>
+                            <constraint firstItem="Zvq-5E-AHc" firstAttribute="top" secondItem="Qoh-dJ-mm7" secondAttribute="bottom" id="mSd-2U-Pb4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="courseListView" destination="Qoh-dJ-mm7" id="8VO-0s-vxK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pn2-LX-BG5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="971"/>
         </scene>
     </scenes>
 </document>

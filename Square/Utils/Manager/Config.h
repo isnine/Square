@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Config : NSObject
-
++(void)saveUserName:(NSString*)userName;
++(void)savePassWord:(NSString*)passWord;
++(void)saveCourse:(NSArray*)data;
++(NSString*)getUserName;
++(NSString*)getPassWord;
++(NSArray*)getCourse;
++(void)pushViewController:(NSString*)controller;
 @end
