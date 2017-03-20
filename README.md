@@ -15,6 +15,11 @@ i课表是一款开源，极简，适用于正方教务管理系统的课程表�
 - 成绩数据获取(未完成)
 - 成绩表(未完成)
 
-## App浏览
+# 需要你的加入如果
+你也是正在使用`正方教务管理系统`的大学，可以在Issues中附上你的教务地址。
+
+# App浏览
 
 <img src="./img/01.jpg?raw=true" width="200"> <img src="./img/02.jpg?raw=true" width="210"> <img src="./img/03.jpg?raw=true" width="310">
+# 相关项目
+[工大助手](https://github.com/isnine/HutHelper-Open)
