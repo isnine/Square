@@ -49,7 +49,7 @@ NSString *show_xp;
             [Config pushViewController:@"Login"];
         }
     NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
-    now_week=(short)[Math getWeekDay];
+    now_week=(short)[Math getWeek];
     show_xp=[defaults objectForKey:@"show_xp"];
     NSString *nowweek_string=@"第";
     NSString *now2=[NSString stringWithFormat:@"%d",now_week];
