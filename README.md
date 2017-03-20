@@ -15,8 +15,6 @@ i课表是一款开源，极简，适用于正方教务管理系统的课程表�
 - 成绩数据获取(未完成)
 - 成绩表(未完成)
 
-# App浏览
+## App浏览
 
-<img src="./img/01.jpg?raw=true" width="200">
-<img src="./img/02.jpg?raw=true" width="200">
-<img src="./img/03.jpg?raw=true" width="200">
+<img src="./img/01.jpg?raw=true" width="200"> <img src="./img/02.jpg?raw=true" width="200"> <img src="./img/03.jpg?raw=true" width="200">
