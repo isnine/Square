@@ -10,8 +10,8 @@
 #import <CommonCrypto/CommonDigest.h>
 @implementation Math
 int startyear                       = 2017;
-int startmonth                      = 2;
-int startday                        = 20;
+int startmonth                      = 9;
+int startday                        = 4;
 #pragma mark - 加密
 + (NSString*)sha1:(NSString *)input
 {
@@ -55,16 +55,17 @@ int startday                        = 20;
     return (s + day);
 }  //当前星期几
 
-/**
- 返回当前是本学期第几周
- */
+/**返回当前是本学期第几周 */
 +(int) getWeek:(int)nowyear m:(int)nowmonth d:(int)nowday {
     int ans                                   = 0;
     if (nowyear == 2017) {
-        ans     = [self CountDays:nowyear m:nowmonth d:nowday] - [self CountDays:2017 m:2 d:20] + 1;
+        ans     = [self CountDays:nowyear m:nowmonth d:nowday] - [self CountDays:startyear m:startmonth d:startday] + 1;
     } else {
         ans         = [self CountDays:nowyear m:nowmonth d:nowday] - [self CountDays:nowyear m:1 d:1] + 1;
-        ans        += [self CountDays:2017 m:12 d:31] - [self CountDays:2017 m:2 d:20]+1;
+        ans        += [self CountDays:2017 m:12 d:31] - [self CountDays:startyear m:startmonth d:startday]+1;
+    }
+    if ((ans + 6) / 7 <=0) {
+        return 1;
     }
     return (ans + 6) / 7;
 }
